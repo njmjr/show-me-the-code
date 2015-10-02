@@ -15,10 +15,9 @@ def generate_activation_code(count):
             code_list.append(code)
     return code_list
 
-
 if __name__ == "__main__":
     code_list = generate_activation_code(200)
     for code in code_list:
         print code
-    # 可以转换为字典看keys 是否是200判断是否有重，不过只能作为确认
+    #可以转换为字典看keys 是否是200判断是否有重，不过只能作为确认
     #print(len({}.fromkeys(code_list).keys()))
