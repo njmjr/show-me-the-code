@@ -16,7 +16,7 @@ def count_codelines(dirPath):#返回字典
             codes_lines = f.readlines()
         for codes_line in codes_lines:
             codes_line = codes_line.strip()
-            if codes_line.startswith("#"):#这里是没有考虑多行注释的
+            if codes_line.startswith('#'):#这里是没有考虑多行注释的
                 comment_lines += 1
             elif codes_line == "":
                 empty_lines += 1
