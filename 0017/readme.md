@@ -19,4 +19,3 @@
 
 - [阅读资料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html) 腾讯游戏开发 xml 和 Excel 相互转换
 ----
-XML里面嵌套JSON，觉累不爱。
