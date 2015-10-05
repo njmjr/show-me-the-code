@@ -25,6 +25,6 @@ def validate_password(hashed, input_password):
     return hashed == encrypt_password(input_password, salt=hashed[:SALT_LENGTH])#前八位是盐
 
 if __name__ =='__main__':
-    password = 'secret_password'
+    password = 'secret password'
     encrypt = encrypt_password(password)
     print validate_password(encrypt, password)

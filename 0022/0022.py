@@ -30,5 +30,5 @@ if __name__ == '__main__':
     reSize('img/',  640,1136)
     # ip6
     reSize('img/', size=(750, 1334))
-    # ip6plus
+    # ip6 plus
     reSize('img/', size=(1080, 1920))

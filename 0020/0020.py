@@ -16,7 +16,7 @@ def phone_calls(xls_file):
         seconds += int(sheet.row_values(i)[3])
     minutes += seconds / 60
     seconds = seconds % 60
-    print '通话时长：', minutes, '分', seconds, '秒'
+    print '通话时长：',minutes,'分', seconds,'秒'
 
 if __name__ == '__main__':
     phone_calls('example.xls')
