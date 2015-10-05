@@ -4,6 +4,7 @@ Created on Sun Oct 04 12:52:24 2015
 
 @author: zhangbohun
 """
+
 from PIL import Image
 import os
 

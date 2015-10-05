@@ -4,6 +4,7 @@ Created on Fri Oct 02 19:46:32 2015
 
 @author: zhangbohun
 """
+
 from PIL import Image, ImageDraw, ImageFont
 
 def add_num(picPath, num):

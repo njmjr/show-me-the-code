@@ -4,6 +4,7 @@ Created on Sun Oct 04 12:30:18 2015
 
 @author: zhangbohun
 """
+
 import re
 
 def count_word(filepath):

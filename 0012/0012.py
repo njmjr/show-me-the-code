@@ -4,6 +4,7 @@ Created on Sun Oct 04 17:00:08 2015
 
 @author: zhangbohun
 """
+
 def filter(testWord):
     with open('filtered_words.txt','rb')as f:
         filtered_words=[line.replace('\r\n','') for line in f]

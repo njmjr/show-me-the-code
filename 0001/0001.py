@@ -4,6 +4,7 @@ Created on Fri Oct 02 21:05:06 2015
 
 @author: zhangbohun
 """
+
 import uuid
 
 def generate_activation_code(count):
@@ -15,7 +16,7 @@ def generate_activation_code(count):
             code_list.append(code)
     return code_list
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     code_list = generate_activation_code(200)
     for code in code_list:
         print code

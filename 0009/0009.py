@@ -4,11 +4,12 @@ Created on Sun Oct 04 15:26:45 2015
 
 @author: zhangbohun
 """
-import urllib2
+
+import urllib
 from bs4 import BeautifulSoup
 
 def show_href(url):
-    content = urllib2.urlopen(url).read()
+    content = urllib.urlopen(url).read()
     soup = BeautifulSoup(content)
     for tag in soup.find_all('a'):
         try:

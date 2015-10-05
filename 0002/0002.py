@@ -4,6 +4,7 @@ Created on Fri Oct 02 21:51:38 2015
 
 @author: zhangbohun
 """
+
 import uuid
 import MySQLdb
 
@@ -20,10 +21,10 @@ def store_mysql(code_list):
     cursor = conn.cursor()
 
     #已经存在则删除
-    cursor.execute("drop table if exists code_table")
+    cursor.execute('drop table if exists code_table')
     cursor.execute('CREATE TABLE code_table (code_value char(40) not null);')
     for code in code_list:
-        cursor.execute('insert into code_table (code_value) values("%s")' % (code))
+        cursor.execute('insert into code_table (code_value) values("%s");' % (code))
         
     conn.commit()
     #conn.rollback()

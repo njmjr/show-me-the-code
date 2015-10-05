@@ -4,6 +4,7 @@ Created on Sun Oct 04 14:19:40 2015
 
 @author: zhangbohun
 """
+
 import os
 
 def count_codelines(dirPath):#返回字典
